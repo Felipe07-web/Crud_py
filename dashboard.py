@@ -84,7 +84,6 @@ class Dashboard:
 
         self.tree = ttk.Treeview(self.frame_table, columns=("Data", "Categoria", "Descrição", "Valor", "Tipo"), show='headings', selectmode='browse')
         self.tree.heading("Data", text="Data")
-        
         self.tree.heading("Categoria", text="Categoria")
         self.tree.heading("Descrição", text="Descrição")
         self.tree.heading("Valor", text="Valor")
