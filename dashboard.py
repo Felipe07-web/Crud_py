@@ -94,7 +94,6 @@ class Dashboard:
         self.tree.column("Descrição", width=200, anchor=tk.W)
         self.tree.column("Valor", width=100, anchor=tk.E)
         self.tree.column("Tipo", width=100, anchor=tk.W)
-
         self.tree.pack(fill=tk.BOTH, expand=True)
 
         # Label para saldo atual
